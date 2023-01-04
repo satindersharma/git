@@ -10,6 +10,7 @@ one day = 86400 seconds
 
 `git pull origin master`
 
+`git config --list`
 `git config --global user.name` 
 `git config --global user.email`
 
@@ -29,3 +30,6 @@ git config branch.master.pushRemote no_push
 ###### (once it commited it will be there no matter how many time you put it in gitignore)
 
 `git rm -r --cached <folder_name/file_name>`
+
+
+## Add git with token
