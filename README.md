@@ -34,13 +34,16 @@ git config branch.master.pushRemote no_push
 
 ## Add git with token
 ### go to your github
-### go to `settings` > `develper settings` > `Personal access tokens` > `fine grained tokens`
+##### go to `settings` > `develper settings` > `Personal access tokens` > `fine grained tokens`
 
 
 
 export GITHUB_USER=magickatt
+
 export GITHUB_TOKEN=secret
+
 export GITHUB_REPOSITORY=magickatt/ContainerisingLegacyApplicationsTalk
+
 git clone https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
 
 
