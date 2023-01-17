@@ -35,6 +35,7 @@ git config branch.master.pushRemote no_push
 ## Add git with token
 ### go to your github
 ##### go to `settings` > `develper settings` > `Personal access tokens` > `fine grained tokens`
+##### go to `settings` > `develper settings` > `Personal access tokens` > `classic tokens` # check the repo section for permission
 
 
 
