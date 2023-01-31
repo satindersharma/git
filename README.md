@@ -48,3 +48,10 @@ export GITHUB_REPOSITORY=magickatt/ContainerisingLegacyApplicationsTalk
 git clone https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
 
 
+
+
+### make `satinder` branch same as `dev` branch
+
+#### `git checkout satinder`
+#### `git reset --hard dev`
+#### `git push --force origin satinder`
