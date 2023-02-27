@@ -55,3 +55,7 @@ git clone https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
 #### `git checkout satinder`
 #### `git reset --hard dev`
 #### `git push --force origin satinder`
+
+
+
+#### `git clone https://username:token@github.com/username/repo1`
