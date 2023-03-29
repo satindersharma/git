@@ -11,7 +11,9 @@ one day = 86400 seconds
 `git pull origin master`
 
 `git config --list`
+
 `git config --global user.name` 
+
 `git config --global user.email`
 
 
@@ -20,7 +22,9 @@ If you don't care about your local changes, try to reset it to HEAD (original st
 
 `git reset HEAD --hard`
 
+
 ### to only allow pull or restric ton push
+
 
 git config branch.master.pushRemote no_push
 
