@@ -70,3 +70,10 @@ git clone https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
 #### revert the commit statement(and keep the file changes
 when you done git add . and git commit -m "change" but want to cancel this commit and keep the file changes
 #### `git reset --soft HEAD~`
+
+similary
+1 - Undo commit and keep all files staged: `git reset --soft HEAD~`
+
+2 - Undo commit and unstage all files: `git reset HEAD~`
+
+3 - Undo the commit and completely remove all changes: `git reset --hard HEAD~`
