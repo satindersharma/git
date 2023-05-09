@@ -63,3 +63,10 @@ git clone https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
 
 
 #### `git clone https://username:token@github.com/username/repo1`
+
+
+
+
+#### revert the commit statement(and keep the file changes
+when you done git add . and git commit -m "change" but want to cancel this commit and keep the file changes
+#### `git reset --soft HEAD~`
