@@ -33,6 +33,7 @@ git config branch.master.pushRemote no_push
 ###### this is because we have commited the file once 
 ###### (once it commited it will be there no matter how many time you put it in gitignore)
 
+## delete the file from locally and also from the github
 `git rm -r --cached <folder_name/file_name>`
 
 
@@ -77,3 +78,8 @@ similary
 2 - Undo commit and unstage all files: `git reset HEAD~`
 
 3 - Undo the commit and completely remove all changes: `git reset --hard HEAD~`
+
+
+
+### remove a file from tracing locally, but kept the file on github
+git update-index --skip-worktree <file>
