@@ -83,3 +83,4 @@ similary
 
 ### remove a file from tracing locally, but kept the file on github
 git update-index --skip-worktree <file>
+git rm --cached django.log --sparse
