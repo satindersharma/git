@@ -84,3 +84,9 @@ similary
 ### remove a file from tracing locally, but kept the file on github
 git update-index --skip-worktree <file>
 git rm --cached django.log --sparse
+
+
+
+### update the token after expiry
+
+git remote set-url origin  https://username:new_token@github.com/username/repo1.git
